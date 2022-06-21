@@ -5,6 +5,8 @@ void main(List<String> args) {
   print(res2);
   final bool res3 = say<bool>(true);
   print(res3);
+
+  say<String>("1");
 }
 
 T say<T>(T data) {
